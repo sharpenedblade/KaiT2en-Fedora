@@ -43,10 +43,10 @@
                 "name": "convFL",
                 "config": {
                     "filename": [
-                        "/usr/share/t2-linux-audio/16_3/front-44.wav",
-                        "/usr/share/t2-linux-audio/16_3/front-48.wav",
-                        "/usr/share/t2-linux-audio/16_3/front-96.wav",
-                        "/usr/share/t2-linux-audio/16_3/front-192.wav"
+                        "/usr/share/t2linux-audio/16_3/front-44.wav",
+                        "/usr/share/t2linux-audio/16_3/front-48.wav",
+                        "/usr/share/t2linux-audio/16_3/front-96.wav",
+                        "/usr/share/t2linux-audio/16_3/front-192.wav"
                     ],
                     "channel": 0,
                     "gain": 0.92
@@ -58,10 +58,10 @@
                 "name": "convFR",
                 "config": {
                     "filename": [
-                        "/usr/share/t2-linux-audio/16_3/front-44.wav",
-                        "/usr/share/t2-linux-audio/16_3/front-48.wav",
-                        "/usr/share/t2-linux-audio/16_3/front-96.wav",
-                        "/usr/share/t2-linux-audio/16_3/front-192.wav"
+                        "/usr/share/t2linux-audio/16_3/front-44.wav",
+                        "/usr/share/t2linux-audio/16_3/front-48.wav",
+                        "/usr/share/t2linux-audio/16_3/front-96.wav",
+                        "/usr/share/t2linux-audio/16_3/front-192.wav"
                     ],
                     "channel": 0,
                     "gain": 0.92
@@ -73,10 +73,10 @@
                 "name": "convRL",
                 "config": {
                     "filename": [
-                        "/usr/share/t2-linux-audio/16_3/rear-44.wav",
-                        "/usr/share/t2-linux-audio/16_3/rear-48.wav",
-                        "/usr/share/t2-linux-audio/16_3/rear-96.wav",
-                        "/usr/share/t2-linux-audio/16_3/rear-192.wav"
+                        "/usr/share/t2linux-audio/16_3/rear-44.wav",
+                        "/usr/share/t2linux-audio/16_3/rear-48.wav",
+                        "/usr/share/t2linux-audio/16_3/rear-96.wav",
+                        "/usr/share/t2linux-audio/16_3/rear-192.wav"
                     ],
                     "channel": 0,
                     "gain": 0.92
@@ -88,10 +88,10 @@
                 "name": "convRR",
                 "config": {
                     "filename": [
-                        "/usr/share/t2-linux-audio/16_3/rear-44.wav",
-                        "/usr/share/t2-linux-audio/16_3/rear-48.wav",
-                        "/usr/share/t2-linux-audio/16_3/rear-96.wav",
-                        "/usr/share/t2-linux-audio/16_3/rear-192.wav"
+                        "/usr/share/t2linux-audio/16_3/rear-44.wav",
+                        "/usr/share/t2linux-audio/16_3/rear-48.wav",
+                        "/usr/share/t2linux-audio/16_3/rear-96.wav",
+                        "/usr/share/t2linux-audio/16_3/rear-192.wav"
                     ],
                     "channel": 0,
                     "gain": 0.92
