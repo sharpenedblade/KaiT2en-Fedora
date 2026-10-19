@@ -94,8 +94,8 @@ install_graph() {
 	tmp="$(mktemp)"
 	sed \
 		-e "s|$old_audio_root|$new_audio_root|g" \
-		-e "s|\"target.object\": \"alsa_output.pci-[^\"]*\\.Speakers\"|\"target.object\": \"$new_target\"|g" \
-		-e "s|\"target.object\": \"alsa_input.pci-[^\"]*\\.BuiltinMic\"|\"target.object\": \"$new_target\"|g" \
+		-e "s|\"target.object\": \"alsa_output\.[^\"]*\"|\"target.object\": \"$new_target\"|g" \
+		-e "s|\"target.object\": \"alsa_input\.[^\"]*\"|\"target.object\": \"$new_target\"|g" \
 		"$src" >"$tmp"
 	install -o root -g root -m 0644 "$tmp" "$dst"
 	rm -f "$tmp"
