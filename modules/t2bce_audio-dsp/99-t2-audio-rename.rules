@@ -1,1 +1,1 @@
-SUBSYSTEMS=="sound", DEVPATH=="/devices/pci0000:00/*/*/t2bce_audio/t2bce_audio/card?", PROGRAM="/usr/bin/sed 's/[^0-9]*//' /sys/class/dmi/id/product_name", ATTR{id}="t2-%c"
+SUBSYSTEMS=="sound", DEVPATH=="/devices/pci0000:00/*/*/t2bce_audio/t2bce_audio/card?", ATTR{id}!="t2-*", PROGRAM="/usr/bin/sed 's/[^0-9]*//; s/,/_/' /sys/class/dmi/id/product_name", ATTR{id}="t2-%c"
